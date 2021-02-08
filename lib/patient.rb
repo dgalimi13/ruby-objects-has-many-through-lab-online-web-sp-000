@@ -25,7 +25,7 @@ end
     
   def doctors
       self.appointments.collect do |appointment|
-        appointment.doctor == self 
+        appointment.doctor 
       end 
   end 
   
